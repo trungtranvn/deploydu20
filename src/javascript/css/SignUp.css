@@ -1,0 +1,116 @@
+.title-header {
+  color: white;
+}
+
+.App-header {
+  background-color: #3223a6;
+  padding: 3%;
+}
+
+.circle-big {
+  background-color: #fcc43e;
+  padding: 10%;
+  height: 10%;
+  width: 0%;
+  border-radius: 50%;
+  float: right;
+  margin-top: -2%;
+  margin-right: 0%;
+}
+
+.circle-small {
+  background-color: #fb7d5b;
+  padding: 8%;
+  height: 10%;
+  width: 0%;
+  border-radius: 50%;
+  float: left;
+  margin-top: 0%;
+  margin-left: 64%;
+}
+
+.App-body {
+  background-color: white;
+  padding: 5%;
+}
+
+.form-signup label {
+  color: #303972;
+}
+
+.form-right {
+  float: left;
+  width: 50%;
+}
+
+.form-right label {
+  padding-bottom: 10%;
+}
+
+.form-left label {
+  padding-bottom: 10%;
+  margin-bottom: 10%;
+}
+
+.form-left {
+  float: left;
+  width: 50%;
+}
+
+.buttom-signup {
+  height: 59.0476188659668px;
+  width: 343px;
+  border-radius: 90px;
+  background: rgba(251, 123, 93, 1);
+}
+
+.buttom-signup:hover {
+  background: red;
+}
+
+.div-buttom {
+  text-align: center;
+}
+
+input {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 90%;
+  border-radius: 5px;
+  border-color: #c1bbeb;
+  padding: 10px;
+}
+
+#fileName {
+  margin-top: 15%;
+}
+
+textarea {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 94%;
+  border-radius: 5px;
+  height: 175px;
+}
+
+img {
+  object-fit: cover;
+}
+
+.result p {
+  background-color: red;
+}
+
+a {
+  margin-left: 4%;
+}
+
+.error {
+  text-align: center;
+  font-size: 166%;
+  color: red;
+}
+
+.error-validate {
+  color: red;
+}

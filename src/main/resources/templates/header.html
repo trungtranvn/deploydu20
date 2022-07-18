@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="https://www.thymeleaf.org"
+	xmlns:sec="https://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+<body>
+	<div th:fragment="menus">
+		<nav class="navbar navbar-light" style="background-color: #969bd9;">
+			<span class="navbar-brand">Home Page</span>
+
+			<div id="navbar" class="collapse navbar-collapse">
+
+				<ul class="nav navbar-nav navbar-right">
+					<li sec:authorize="isAuthenticated()"><a th:href="@{/logout}">Logout</a></li>
+				</ul>
+				<ul class="nav navbar-nav">
+					<li sec:authorize="isAuthenticated()"
+						th:each="authority : ${#authentication.getAuthorities()}"><a
+						th:href="@{${authority.getAuthority()}}"
+						th:text="${authority.getAuthority()}"></a></li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+</body>
+</html>

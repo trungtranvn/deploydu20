@@ -1,0 +1,36 @@
+.main {
+  background: #f3f4ff;
+  font-family: 'Arial';
+  padding: 50px;
+}
+.userDetail {
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 20px;
+}
+.tab {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.tab li {
+  background: #d9d9d9;
+  float: left;
+  border: none;
+  list-style: none;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  width: 120px;
+  line-height: 40px;
+}
+.tab li.active {
+  background: #c2bdff;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  color: #303972;
+}

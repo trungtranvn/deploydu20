@@ -1,0 +1,131 @@
+.tabContent {
+  height: 500px;
+  background: rgba(217, 217, 217, 0.63);
+  display: flex;
+}
+
+.avatar {
+  width: 260px;
+  height: 260px;
+  background: #c1bbeb;
+  border-radius: 50%;
+  border: 8px solid #ffffff;
+  margin: 50px 10px;
+}
+
+.groupButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 0px;
+}
+
+.groupButton button {
+  width: 81.08px;
+  height: 31.07px;
+  background: #fb7d5b;
+  border-radius: 40px;
+  border: none;
+  color: #ffffff;
+  margin: 0px 10px;
+  cursor: pointer;
+}
+.btnYes {
+  padding: 10px 24px;
+  gap: 10px;
+  width: 105px;
+  height: 60px;
+  left: 977px;
+  top: 714px;
+  background: #fb7d5b;
+  font-size: 25px;
+  cursor: pointer;
+  opacity: 2;
+  border: 2px solid #4d44b5;
+  border-radius: 40px;
+  opacity: 1;
+}
+.btnOk {
+  padding: 10px 24px;
+  gap: 10px;
+  width: 105px;
+  height: 60px;
+  left: 977px;
+  top: 714px;
+  background: #fb7d5b;
+  font-size: 25px;
+  cursor: pointer;
+  opacity: 2;
+  border: 2px solid #4d44b5;
+  border-radius: 40px;
+  opacity: 1;
+}
+.btnNo {
+  background: #4d44b5;
+  padding: 10px 24px;
+  gap: 10px;
+  width: 105px;
+  height: 60px;
+  left: 977px;
+  top: 714px;
+  font-size: 25px;
+  cursor: pointer;
+  opacity: 0.9;
+
+  color: #ffffff;
+  border: 2px solid #4d44b5;
+  border-radius: 40px;
+}
+.groupButtonDel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 0px;
+  opacity: 1;
+}
+.groupButtonDel button {
+  padding: 5px 20px;
+  margin: 20px 10px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+label {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #303972;
+  display: block;
+  margin: 30px 0px 10px 0px;
+}
+
+.inputView {
+  box-sizing: border-box;
+  height: 40px;
+  width: 500px;
+  background: rgba(255, 255, 255, 0.53);
+  border: 1px solid #c1bbeb;
+  border-radius: 5px;
+  font-weight: 400;
+  font-size: 14px;
+  padding: 10px;
+  margin: 0;
+}
+.tab button {
+  background: #d9d9d9;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 400;
+  width: 120px;
+  height: 40px;
+}
+.tab button.active {
+  background: #c2bdff;
+}
+
+.column {
+  margin: 0px 30px;
+}
